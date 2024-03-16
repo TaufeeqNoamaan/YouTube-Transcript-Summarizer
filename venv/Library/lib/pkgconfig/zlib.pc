@@ -1,0 +1,13 @@
+prefix=D:/Projects/AI/YT-transcript_summarizer/venv/Library
+exec_prefix=D:/Projects/AI/YT-transcript_summarizer/venv/Library
+libdir=D:/Projects/AI/YT-transcript_summarizer/venv/Library/lib
+sharedlibdir=D:/Projects/AI/YT-transcript_summarizer/venv/Library/lib
+includedir=D:/Projects/AI/YT-transcript_summarizer/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
